@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Boiler Plate</title>
+
+    <!-- Bootstrap for CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fontawesome 5 CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="header-main">
+            <div class="row no-gutters">
+                <div class="col-4">
+                    <img src="images/person1.jpg" alt="profile-picture">
+                </div>
+
+                <div class="col-8">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <h2>Nitya</h2>
+
+                                <div class="d-flex">
+                                    <a href="http://twitter.com" class="text-white">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="http://facebook.com" class="text-white">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="http://instagram.com" class="text-white">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="http://github.com" class="text-white">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="http://linkedin.com" class="text-white">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-black">
+                            Experienced Frontend Developer
+                        </div>
+
+                        <div>
+                            <div class="d-flex flex-row text-white text-center align-items-stretch">
+                                <div class="port-item p-4 bg-primary py-5" data-toggle="collapse" data-target="#home">
+                                    <i class="fas fa-home fa-2x d-block mx-auto"></i>
+                                    <span class="d-none d-sm-block">Home</span>
+                                </div>
+
+                                <div class="port-item p-4 bg-success py-5" data-toggle="collapse" data-target="#resume">
+                                    <i class="fas fa-graduation-cap fa-2x d-block mx-auto"></i>
+                                    <span class="d-none d-sm-block">Resume</span>
+                                </div>
+
+                                <div class="port-item p-4 bg-warning py-5" data-toggle="collapse" data-target="#work">
+                                    <i class="fas fa-folder-open fa-2x d-block mx-auto"></i>
+                                    <span class="d-none d-sm-block">Work</span>
+                                </div>
+
+                                <div class="port-item p-4 bg-danger py-5" data-toggle="collapse" data-target="#contact">
+                                    <i class="fas fa-envelope fa-2x d-block mx-auto"></i>
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Home -->
+        <div id="home" class="collapse show">
+            <div class="card card-body bg-primary text-white py-5">
+                <h2>Welcome to my page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias perspiciatis id possimus mollitia aperiam. Dolorum ab nam itaque, atque molestiae quia veniam architecto eveniet possimus, consectetur culpa iure magnam fuga reiciendis assumenda, deserunt nihil suscipit.</p>
+            </div>
+
+            <div class="card card-body">
+                <h3>My Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nihil.</p>
+                <hr>
+
+                <h4>HTML 5</h4>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width: 100%;"></div>
+                </div>
+
+                <h4>CSS</h4>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width: 90%;"></div>
+                </div>
+
+                <h4>Java Script</h4>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width: 70%;"></div>
+                </div>
+
+                <h4>PHP</h4>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Resume -->
+        <div id="resume" class="collapse">
+            <div class="card card-body bg-success text-white py-5">
+                <h2>My Resume</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias perspiciatis id possimus mollitia aperiam. Dolorum ab nam itaque, atque molestiae quia veniam architecto eveniet possimus, consectetur culpa iure magnam fuga reiciendis assumenda, deserunt nihil suscipit.</p>
+            </div>
+
+            <div class="card card-body">
+                <h4>Work Experience</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo labore ipsa, id cum, assumenda deserunt culpa laborum fugiat ipsum cumque reiciendis obcaecati, velit iure iste cupiditate similique tenetur consectetur vel dicta suscipit maiores facere ea.</p>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Safer Infra</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium aspernatur iste corrupti. Velit, doloribus.</p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Position Operation Analyst
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Phone: (+91) - 654 323 1234
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                City: Bengaluru
+                            </p>
+
+                            <div class="card-footer">
+                                <h6 class="text-muted">Date: 2019 - 2020</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Safer Infra</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium aspernatur iste corrupti. Velit, doloribus.</p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Position Operation Analyst
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Phone: (+91) - 654 323 1234
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                City: Bengaluru
+                            </p>
+
+                            <div class="card-footer">
+                                <h6 class="text-muted">Date: 2019 - 2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Safer Infra</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium aspernatur iste corrupti. Velit, doloribus.</p>
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Position Operation Analyst
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                Phone: (+91) - 654 323 1234
+                            </p>
+
+                            <p class="p-2 mb-3 bg-dark text-white">
+                                City: Bengaluru
+                            </p>
+
+                            <div class="card-footer">
+                                <h6 class="text-muted">Date: 2019 - 2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Work -->
+        <div id="work" class="collapse">
+            <div class="card card-body bg-warning text-white py-5">
+                <h2>My work</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias perspiciatis id possimus mollitia aperiam. Dolorum ab nam itaque, atque molestiae quia veniam architecto eveniet possimus, consectetur culpa iure magnam fuga reiciendis assumenda, deserunt nihil suscipit.</p>
+            </div>
+
+            <div class="card card-body">
+                <h3>what have I built?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis illum optio! Optio, saepe provident libero labore distinctio incidunt reiciendis id omnis voluptas fugit ipsa dignissimos mollitia blanditiis deserunt cupiditate cumque perferendis earum modi et, tenetur deleniti dolorem excepturi laboriosam. Consectetur porro assumenda modi labore molestiae doloremque voluptatem quasi cupiditate, obcaecati sequi sed illo recusandae officia nam nisi eveniet optio.</p>
+            
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=252" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=253" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=254" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=255" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=256" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=257" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=258" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=259" alt="work" class="img-fluid">
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div id="contact" class="collapse">
+            <div class="card card-body bg-danger text-white py-5">
+                <h2>My Contact</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias perspiciatis id possimus mollitia aperiam. Dolorum ab nam itaque, atque molestiae quia veniam architecto eveniet possimus, consectetur culpa iure magnam fuga reiciendis assumenda, deserunt nihil suscipit.</p>
+            </div>
+
+            <div class="card card-body">
+                <h3>Get in Touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quae! Vel dolor officia dolorum enim provident eligendi dolorem. Placeat reiciendis maxime quod tempore quos est vitae nostrum ipsa doloribus ut repellat dignissimos quis soluta labore, pariatur autem iste. Nulla, asperiores.</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </span>
+                            </div>
+                            <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                    <input type="Submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer id="footer-main" class="p-3 bg-dark text-white">
+            <div class="row">
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-outline-light">
+                    <i class="fas fa-cloud"></i> Download Resume
+                  </a>
+                </div>
+              </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap for JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Lightbox Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+    <script>
+        $('.port-item').click(function () {
+            $('.collapse').collapse('hide');
+        });
+
+        $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
